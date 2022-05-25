@@ -1,0 +1,16 @@
+[package]
+name = "bevyofspice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Bevy
+bevy = '0.7.0'
+
+# Math
+glam = { version = "0.20.1", features = ["serde", "bytemuck"] }
+
+# OpenGL, window
+glium = "0.31.0"
